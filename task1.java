@@ -1,3 +1,4 @@
+// Вычисление суммы функционального ряда
 import java.util.*;
 import java.lang.*;
 import java.text.DecimalFormat;
