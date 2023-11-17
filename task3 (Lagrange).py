@@ -13,6 +13,7 @@ def L(x, f, n):
         result += f[i][1] * (up_proizv / down_proizv)
     return result
 
+
 headers = ["x", "f(x)"]
 table = tabulate(f, headers, tablefmt="pretty")
 print("Исходные данные:")
@@ -25,7 +26,7 @@ for i in range(0, n):
     result.append([f[i][0], f[i][1]])
     if (i != n - 1):
         result.append([(f[i][0] + f[i + 1][0]) / 2, L((f[i][0] + f[i + 1][0]) / 2, f, n)])
-        
+
 headers = ["x", "f(x)"]
 table = tabulate(result, headers, tablefmt="pretty")
 print(table)

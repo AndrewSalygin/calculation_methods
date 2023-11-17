@@ -2,6 +2,7 @@
 import numpy as np
 from tabulate import tabulate
 
+
 def format_polynomial(coefficients):
     # Определение степени многочлена
     degree = len(coefficients) - 1
