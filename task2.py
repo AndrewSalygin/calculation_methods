@@ -1,3 +1,4 @@
+# Интерполяционный многочлен в общем виде
 import numpy as np
 from tabulate import tabulate
 
